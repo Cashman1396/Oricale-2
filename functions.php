@@ -415,6 +415,7 @@ add_action( 'init', 'projects_taxonomy');
 add_theme_support( 'post-thumbnails', array( 'projects' ) ); // adds thumbnail support for the Projects CPT
 
 
+
 function get_relative_thumb( $size ) {
 	global $post;
 	if ( has_post_thumbnail()) {
